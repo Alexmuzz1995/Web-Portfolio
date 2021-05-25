@@ -50,6 +50,7 @@ export default {
   background-color: rgb(78, 81, 83);
   height: 100vh;
   width: 100vw;
+  display: flex;
 }
 .content {
   width: 100vw;

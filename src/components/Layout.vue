@@ -3,7 +3,7 @@
     <NavBar />
     <HomePage />
     <About />
-    <!-- <Experience /> -->
+    <Experience />
   </div>
 </template>
 
@@ -11,14 +11,14 @@
 import NavBar from './Navbar'
 import HomePage from './Homepage'
 import About from './About'
-// import Experience from './Experience.vue'
+import Experience from './Experience.vue'
 export default {
   name: 'Layout',
   components: {
     NavBar,
     HomePage,
     About,
-    // Experience
+    Experience
   },
   props: {
   }
