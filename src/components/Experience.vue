@@ -25,27 +25,27 @@
       <div class="skills">
         <div data-aos-easing="ease-in-sine" data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="1000">
             <strong class="pt-4">PHP</strong>
-            <b-progress :value="skills.php" variant="danger" class="mb-5"></b-progress>
+            <b-progress :value="skills.php" variant="danger" class="mb-4"></b-progress>
         </div>
 
         <div data-aos-easing="ease-in-sine" data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="1250">
             <strong>CSS</strong>
-            <b-progress :value="skills.css" variant="primary" class="mb-5"></b-progress>
+            <b-progress :value="skills.css" variant="primary" class="mb-4"></b-progress>
         </div>
 
         <div data-aos-easing="ease-in-sine" data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="1500">
             <strong>MySQL</strong>
-            <b-progress :value="skills.sql" variant="warning" class="mb-5"></b-progress>
+            <b-progress :value="skills.sql" variant="warning" class="mb-4"></b-progress>
         </div>
 
         <div data-aos-easing="ease-in-sine" data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="1750">
             <strong>JavaScript</strong>
-            <b-progress :value="skills.javascript" variant="dark" class="mb-5"></b-progress>
+            <b-progress :value="skills.javascript" variant="dark" class="mb-4"></b-progress>
         </div>
 
         <div data-aos-easing="ease-in-sine" data-aos="zoom-in-up" data-aos-delay="250" data-aos-duration="2000">
           <strong>Git</strong>
-            <b-progress :value="skills.git" variant="success" class="mb-5"></b-progress>
+            <b-progress :value="skills.git" variant="success" class="mb-4"></b-progress>
         </div>          
       </div>
     </div>
@@ -99,7 +99,7 @@ export default {
 }
 
 .skills {
-  height: 70%;
+  height: 60%;
   width: 45%;
   font-size: 21px;
   display: flex;
@@ -119,6 +119,6 @@ export default {
   padding-top: 30px;
 }
 .work .jobDesc {
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>

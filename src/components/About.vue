@@ -4,9 +4,7 @@
 
       <div class="title">About Me</div>
 
-      <div class="profilePic">
-          <img class="mePic" src="./../assets/me.jpg" data-aos-easing="ease-in-sine" data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" />
-      </div>
+      <img class="mePic" src="./../assets/me.jpg" data-aos-easing="ease-in-sine" data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" />
         
       <div class="about" data-aos-easing="ease-in-sine" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" >
           <div class="content">
@@ -61,8 +59,8 @@ export default {
   font-family: 'Bungee Inline', cursive;
   font-size: 3rem;
   color: rgb(7, 6, 6);
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 7%;
+  padding-bottom: 2%;
 }
 .about-wrapper {
   width: 70vw;
@@ -75,27 +73,25 @@ export default {
   font-size: 20px;
   text-align: center;
 }
-.profilePic {
-  padding-bottom: 60px;
-}
+
 .mePic {
-  max-height: 300px;
   border-radius: 50%;
+  height: 30%;
 }
 .socialPic {
   max-height: 60px;
 }
 .social {
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .social > div {
-  padding: 10px 50px 10px 50px;
+  padding: 0px 50px 0px 50px;
 }
 .about {
-  padding-bottom: 60px;
+  padding-bottom: 5%;
+  padding-top: 2%;
 }
 </style>
